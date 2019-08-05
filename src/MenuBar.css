@@ -1,0 +1,79 @@
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+    position: fixed;
+    width: 26px;
+    height: 20px;
+    margin-left: 5px;
+    top: 2vh;
+}
+      
+/* Color of burger icon bars */
+
+.bm-burger-bars {
+    background: #292a31;
+}
+
+/* Position and sizing of search field */    
+
+.filterLocations{
+    position: relative;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+    padding: 15px;
+    margin-right: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}   
+  
+/* Color of close button cross */
+
+.bm-cross {
+    background: #bdc3c7;
+}
+    
+/* General sidebar styles */
+
+.bm-menu {
+    background: rgb(241, 241, 241);
+    font-size: 0.95em;
+}
+    
+/* item list */
+
+.bm-item-list {
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ====================== media queries ====================== */
+
+@media only screen and (min-width: 320px) and (max-width: 502px) {
+    .bm-item-list {
+        padding: 0;
+    }
+
+    .bm-menu {
+        margin-top: 10px;
+        font-size: 3vw;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 503px) and (max-width: 1024px){
+
+    .bm-menu {
+        margin-top: 10px;
+        font-size: 3vw;
+        width: 100%;
+    }
+}
